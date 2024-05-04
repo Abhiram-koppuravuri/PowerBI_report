@@ -1,5 +1,8 @@
 
 # Computer hardware sales data
+# Data model
+![Screenshot 2024-05-04 095140](https://github.com/Abhiram-koppuravuri/PowerBI_report/assets/121746477/00c26ec3-59ae-40e1-b172-9a98672e0f7b)
+
 This dashboard focuses on 3 features,
 
 ## 1) Key insights
