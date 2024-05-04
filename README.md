@@ -33,6 +33,8 @@ This has 2 slicers year and month.
 
 ![Screenshot 2024-05-02 191309](https://github.com/Abhiram-koppuravuri/PowerBI_report/assets/121746477/0387aee6-96b0-4aa9-8fae-7c5fe14eca25)
 
+## Contribution% is defined as out of 100%, how much percent is this market in revenue/ profit.
+
 ## a) Revenue contribution % by market
 Stacked bar chart showing revenue contribution % by market. Measure is calculated using below DAX code.
 
@@ -57,4 +59,14 @@ Table showing customer name, revenue, revenue contribution%, profit margin%, pro
 # 3) Performance Insights
 ![Screenshot 2024-05-02 191554](https://github.com/Abhiram-koppuravuri/PowerBI_report/assets/121746477/34c4a373-c30e-41bf-b624-cae4ef432263)
 
-Same charts as before except 
+## a) What if paramater
+It has slider from -5% to 15% profit target which highlights the revenue contribution % by market based on selected. IF -2% is selected, entities falling below this are shown as red in revenue contribution % by market.
+
+## b) Revenue trend (performance based)
+Line and clustered column chart that shows present year revenue comparison with previous year along with profit% . Revenue last year measure is calculated with below DAX code 
+
+Revenue LY = CALCULATE([Revenue],SAMEPERIODLASTYEAR('sales date'[date]))
+
+
+
+
